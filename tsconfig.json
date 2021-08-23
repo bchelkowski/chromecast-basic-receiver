@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "module": "ESNext",
+    "target": "es5",
+    "lib": ["es6", "dom"],
+    "moduleResolution": "node",
+    "noImplicitReturns": true,
+    "noImplicitThis": true,
+    "noImplicitAny": true,
+    "noUnusedLocals": true,
+    "rootDir": "src",
+    "sourceMap": true,
+    "strictNullChecks": true
+  },
+  "exclude": ["node_modules"],
+  "include": ["src/**/*"]
+}
